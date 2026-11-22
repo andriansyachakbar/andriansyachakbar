@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="433" viewBox="0 0 1180 433" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Featured Systems and Projects">
+<defs>
+  <linearGradient id="acc_dark" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#F59E0B"><animate attributeName="stop-color" values="#F59E0B;#22D3EE;#10B981;#F59E0B" dur="10s" repeatCount="indefinite"/></stop>
+    <stop offset="1" stop-color="#10B981"><animate attributeName="stop-color" values="#10B981;#F59E0B;#22D3EE;#10B981" dur="10s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+</defs>
+<rect width="1180" height="433" rx="12" fill="#0A101F"/>
+<text x="9" y="19" font-size="11" letter-spacing="2" fill="#22D3EE">PROJECTS.LIST</text>
+<text x="139" y="19" font-size="10.5" fill="#64748B">./systems.sh --all</text>
+<line x1="5" y1="29" x2="1175" y2="29" stroke="url(#acc_dark)" stroke-width="1.5" opacity="0.75"/>
+<g opacity="0" transform="translate(5,42)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.20s" fill="freeze"/>
+      <rect width="578" height="172" rx="12" fill="#0C1426" stroke="rgba(34,211,238,0.28)">
+        <animate attributeName="stroke" values="rgba(34,211,238,0.20);rgba(34,211,238,0.55);rgba(34,211,238,0.20)" dur="4.5s" begin="0.20s" repeatCount="indefinite"/>
+      </rect>
+      <rect width="578" height="30" rx="12" fill="#0B1222"/>
+      <rect y="18" width="578" height="12" fill="#0B1222"/>
+      <line x1="0" y1="30" x2="578" y2="30" stroke="rgba(255,255,255,0.08)"/>
+      <text x="16" y="19" font-size="10.5" fill="#94A3B8"><tspan fill="#22D3EE">&#8226;</tspan> private/portal-open-api</text>
+      <circle cx="562" cy="15" r="3.5" fill="#10B981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+
+      <!-- Floating crisp vector icon -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="5s" begin="0.20s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <rect x="16" y="44" width="40" height="40" rx="10" fill="#0E7490"/>
+        <path d="M29 58 L36 51 L43 58 M36 51 L36 70 M28 70 L44 70" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <text x="68" y="61" font-size="17" font-weight="700" fill="#F8FAFC">Open API Portal<tspan fill="#22D3EE">_<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.55s" repeatCount="indefinite"/></tspan></text>
+      <text x="68" y="81" font-size="11" fill="#94A3B8">Developer portal &amp; sandbox with API catalog,</text>
+      <text x="68" y="97" font-size="11" fill="#94A3B8">key lifecycle, JWT/RBAC &amp; layered rate limits</text>
+      <rect x="68" y="119" width="68" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="102" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">Go (Gin)</text><rect x="143" y="119" width="68" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="177" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">React 19</text><rect x="218" y="119" width="81" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="258.5" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">PostgreSQL</text>
+      <text x="68" y="157" font-size="11" fill="#94A3B8"><tspan fill="#F59E0B">&#9670;</tspan> Private · 685 commits<tspan fill="#64748B" dx="12">active Nov 2026</tspan></text>
+
+      <!-- Donut chart & legend -->
+      <circle cx="522" cy="102" r="27" fill="none" stroke="rgba(148,163,184,0.16)" stroke-width="8.5"/>
+      <circle cx="522" cy="102" r="27" fill="none" stroke="#22D3EE" stroke-width="8.5" stroke-dasharray="88.22 81.43" stroke-dashoffset="0.00" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.45s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="88.22 81.43" dur="0.55s" begin="0.45s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#F59E0B" stroke-width="8.5" stroke-dasharray="64.47 105.18" stroke-dashoffset="-88.22" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.61s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="64.47 105.18" dur="0.55s" begin="0.61s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#10B981" stroke-width="8.5" stroke-dasharray="16.96 152.68" stroke-dashoffset="-152.68" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.77s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="16.96 152.68" dur="0.55s" begin="0.77s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle>
+      <text x="522" y="106" text-anchor="middle" font-size="11" font-weight="700" fill="#F8FAFC">52%</text>
+      <circle cx="403" cy="84" r="3.5" fill="#22D3EE"/><text x="412" y="87.5" font-size="10" fill="#94A3B8">React/JS 52%</text><circle cx="403" cy="102" r="3.5" fill="#F59E0B"/><text x="412" y="105.5" font-size="10" fill="#94A3B8">Go 38%</text><circle cx="403" cy="120" r="3.5" fill="#10B981"/><text x="412" y="123.5" font-size="10" fill="#94A3B8">SQL/CSS 10%</text>
+    </g>
+<g opacity="0" transform="translate(601,42)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.34s" fill="freeze"/>
+      <rect width="578" height="172" rx="12" fill="#0C1426" stroke="rgba(34,211,238,0.28)">
+        <animate attributeName="stroke" values="rgba(34,211,238,0.20);rgba(34,211,238,0.55);rgba(34,211,238,0.20)" dur="4.5s" begin="0.94s" repeatCount="indefinite"/>
+      </rect>
+      <rect width="578" height="30" rx="12" fill="#0B1222"/>
+      <rect y="18" width="578" height="12" fill="#0B1222"/>
+      <line x1="0" y1="30" x2="578" y2="30" stroke="rgba(255,255,255,0.08)"/>
+      <text x="16" y="19" font-size="10.5" fill="#94A3B8"><tspan fill="#22D3EE">&#8226;</tspan> private/dashboard-log-simplify</text>
+      <circle cx="562" cy="15" r="3.5" fill="#10B981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+
+      <!-- Floating crisp vector icon -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="5s" begin="0.74s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <rect x="16" y="44" width="40" height="40" rx="10" fill="#047857"/>
+        <path d="M25 70 L30 62 L35 66 L41 55 L46 60" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46" cy="60" r="2.2" fill="#FDE68A"/>
+      </g>
+
+      <text x="68" y="61" font-size="17" font-weight="700" fill="#F8FAFC">Log Monitor UI<tspan fill="#22D3EE">_<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.69s" repeatCount="indefinite"/></tspan></text>
+      <text x="68" y="81" font-size="11" fill="#94A3B8">Real-time API &amp; transaction log observability</text>
+      <text x="68" y="97" font-size="11" fill="#94A3B8">with top endpoints, charts &amp; JSON inspection</text>
+      <rect x="68" y="119" width="62" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="99" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">Node.js</text><rect x="137" y="119" width="62" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="168" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">Express</text><rect x="206" y="119" width="81" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="246.5" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">PostgreSQL</text>
+      <text x="68" y="157" font-size="11" fill="#94A3B8"><tspan fill="#F59E0B">&#9670;</tspan> Private · Full-Stack<tspan fill="#64748B" dx="12">Express + Recharts</tspan></text>
+
+      <!-- Donut chart & legend -->
+      <circle cx="522" cy="102" r="27" fill="none" stroke="rgba(148,163,184,0.16)" stroke-width="8.5"/>
+      <circle cx="522" cy="102" r="27" fill="none" stroke="#22D3EE" stroke-width="8.5" stroke-dasharray="125.54 44.11" stroke-dashoffset="0.00" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.59s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="125.54 44.11" dur="0.55s" begin="0.59s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#F59E0B" stroke-width="8.5" stroke-dasharray="27.14 142.50" stroke-dashoffset="-125.54" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.75s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="27.14 142.50" dur="0.55s" begin="0.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#10B981" stroke-width="8.5" stroke-dasharray="16.96 152.68" stroke-dashoffset="-152.68" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.91s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="16.96 152.68" dur="0.55s" begin="0.91s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle>
+      <text x="522" y="106" text-anchor="middle" font-size="11" font-weight="700" fill="#F8FAFC">74%</text>
+      <circle cx="403" cy="84" r="3.5" fill="#22D3EE"/><text x="412" y="87.5" font-size="10" fill="#94A3B8">JavaScript 74%</text><circle cx="403" cy="102" r="3.5" fill="#F59E0B"/><text x="412" y="105.5" font-size="10" fill="#94A3B8">CSS/HTML 16%</text><circle cx="403" cy="120" r="3.5" fill="#10B981"/><text x="412" y="123.5" font-size="10" fill="#94A3B8">SQL 10%</text>
+    </g>
+<g opacity="0" transform="translate(5,228)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.48s" fill="freeze"/>
+      <rect width="578" height="172" rx="12" fill="#0C1426" stroke="rgba(34,211,238,0.28)">
+        <animate attributeName="stroke" values="rgba(34,211,238,0.20);rgba(34,211,238,0.55);rgba(34,211,238,0.20)" dur="4.5s" begin="1.68s" repeatCount="indefinite"/>
+      </rect>
+      <rect width="578" height="30" rx="12" fill="#0B1222"/>
+      <rect y="18" width="578" height="12" fill="#0B1222"/>
+      <line x1="0" y1="30" x2="578" y2="30" stroke="rgba(255,255,255,0.08)"/>
+      <text x="16" y="19" font-size="10.5" fill="#94A3B8"><tspan fill="#22D3EE">&#8226;</tspan> enterprise/axway-api-gateway</text>
+      <circle cx="562" cy="15" r="3.5" fill="#10B981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+
+      <!-- Floating crisp vector icon -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="5s" begin="1.28s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <rect x="16" y="44" width="40" height="40" rx="10" fill="#B45309"/>
+        <path d="M36 52 L45 56 V63 C45 68 41 72 36 74 C31 72 27 68 27 63 V56 Z" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round"/><path d="M32.5 63 L35 65.5 L40 60" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <text x="68" y="61" font-size="17" font-weight="700" fill="#F8FAFC">Axway API Mgmt<tspan fill="#22D3EE">_<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.83s" repeatCount="indefinite"/></tspan></text>
+      <text x="68" y="81" font-size="11" fill="#94A3B8">Enterprise API Gateway &amp; Manager governance,</text>
+      <text x="68" y="97" font-size="11" fill="#94A3B8">Policy Studio routing, OAuth 2.0, JWT &amp; mTLS</text>
+      <rect x="68" y="119" width="81" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="108.5" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">Axway APIM</text><rect x="156" y="119" width="101" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="206.5" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">Policy Studio</text><rect x="264" y="119" width="62" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="295" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">OpenAPI</text>
+      <text x="68" y="157" font-size="11" fill="#94A3B8"><tspan fill="#F59E0B">&#9670;</tspan> Enterprise · Governance<tspan fill="#64748B" dx="12">OAuth2 · mTLS</tspan></text>
+
+      <!-- Donut chart & legend -->
+      <circle cx="522" cy="102" r="27" fill="none" stroke="rgba(148,163,184,0.16)" stroke-width="8.5"/>
+      <circle cx="522" cy="102" r="27" fill="none" stroke="#22D3EE" stroke-width="8.5" stroke-dasharray="76.34 93.31" stroke-dashoffset="0.00" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.73s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="76.34 93.31" dur="0.55s" begin="0.73s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#F59E0B" stroke-width="8.5" stroke-dasharray="59.38 110.27" stroke-dashoffset="-76.34" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.89s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="59.38 110.27" dur="0.55s" begin="0.89s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#10B981" stroke-width="8.5" stroke-dasharray="33.93 135.72" stroke-dashoffset="-135.72" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.05s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="33.93 135.72" dur="0.55s" begin="1.05s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle>
+      <text x="522" y="106" text-anchor="middle" font-size="11" font-weight="700" fill="#F8FAFC">45%</text>
+      <circle cx="403" cy="84" r="3.5" fill="#22D3EE"/><text x="412" y="87.5" font-size="10" fill="#94A3B8">Policies 45%</text><circle cx="403" cy="102" r="3.5" fill="#F59E0B"/><text x="412" y="105.5" font-size="10" fill="#94A3B8">Security 35%</text><circle cx="403" cy="120" r="3.5" fill="#10B981"/><text x="412" y="123.5" font-size="10" fill="#94A3B8">OpenAPI 20%</text>
+    </g>
+<g opacity="0" transform="translate(601,228)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.62s" fill="freeze"/>
+      <rect width="578" height="172" rx="12" fill="#0C1426" stroke="rgba(34,211,238,0.28)">
+        <animate attributeName="stroke" values="rgba(34,211,238,0.20);rgba(34,211,238,0.55);rgba(34,211,238,0.20)" dur="4.5s" begin="2.42s" repeatCount="indefinite"/>
+      </rect>
+      <rect width="578" height="30" rx="12" fill="#0B1222"/>
+      <rect y="18" width="578" height="12" fill="#0B1222"/>
+      <line x1="0" y1="30" x2="578" y2="30" stroke="rgba(255,255,255,0.08)"/>
+      <text x="16" y="19" font-size="10.5" fill="#94A3B8"><tspan fill="#22D3EE">&#8226;</tspan> enterprise/ibm-ace-pipelines</text>
+      <circle cx="562" cy="15" r="3.5" fill="#10B981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+
+      <!-- Floating crisp vector icon -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -2.5;0 0" dur="5s" begin="1.82s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <rect x="16" y="44" width="40" height="40" rx="10" fill="#1D4ED8"/>
+        <circle cx="28" cy="63" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="2"/><circle cx="44" cy="56" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="2"/><circle cx="44" cy="70" r="3.5" fill="none" stroke="#FFFFFF" stroke-width="2"/><path d="M31.5 61.5 L40.5 57.5 M31.5 64.5 L40.5 68.5" stroke="#FFFFFF" stroke-width="1.8"/>
+      </g>
+
+      <text x="68" y="61" font-size="17" font-weight="700" fill="#F8FAFC">IBM ACE Flows<tspan fill="#22D3EE">_<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.97s" repeatCount="indefinite"/></tspan></text>
+      <text x="68" y="81" font-size="11" fill="#94A3B8">Message flow orchestration, ESQL payload</text>
+      <text x="68" y="97" font-size="11" fill="#94A3B8">transforms, SOAP/REST mediation &amp; IBM MQ</text>
+      <rect x="68" y="119" width="62" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="99" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">IBM ACE</text><rect x="137" y="119" width="55" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="164.5" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">IBM MQ</text><rect x="199" y="119" width="42" height="18" rx="9" fill="rgba(245,158,11,0.16)" stroke="rgba(245,158,11,0.45)"/>
+          <text x="220" y="131.5" text-anchor="middle" font-size="9.5" fill="#FDE68A">ESQL</text>
+      <text x="68" y="157" font-size="11" fill="#94A3B8"><tspan fill="#F59E0B">&#9670;</tspan> Enterprise · Middleware<tspan fill="#64748B" dx="12">ESB &amp; Async MQ</tspan></text>
+
+      <!-- Donut chart & legend -->
+      <circle cx="522" cy="102" r="27" fill="none" stroke="rgba(148,163,184,0.16)" stroke-width="8.5"/>
+      <circle cx="522" cy="102" r="27" fill="none" stroke="#22D3EE" stroke-width="8.5" stroke-dasharray="84.82 84.82" stroke-dashoffset="0.00" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.87s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="84.82 84.82" dur="0.55s" begin="0.87s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#F59E0B" stroke-width="8.5" stroke-dasharray="50.89 118.75" stroke-dashoffset="-84.82" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.03s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="50.89 118.75" dur="0.55s" begin="1.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="522" cy="102" r="27" fill="none" stroke="#10B981" stroke-width="8.5" stroke-dasharray="33.93 135.72" stroke-dashoffset="-135.72" transform="rotate(-90 522 102)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.19s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 169.65" to="33.93 135.72" dur="0.55s" begin="1.19s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle>
+      <text x="522" y="106" text-anchor="middle" font-size="11" font-weight="700" fill="#F8FAFC">50%</text>
+      <circle cx="403" cy="84" r="3.5" fill="#22D3EE"/><text x="412" y="87.5" font-size="10" fill="#94A3B8">ESQL 50%</text><circle cx="403" cy="102" r="3.5" fill="#F59E0B"/><text x="412" y="105.5" font-size="10" fill="#94A3B8">Flows 30%</text><circle cx="403" cy="120" r="3.5" fill="#10B981"/><text x="412" y="123.5" font-size="10" fill="#94A3B8">MQ/XML 20%</text>
+    </g>
+</svg>

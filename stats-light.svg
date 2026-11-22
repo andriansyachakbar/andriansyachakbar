@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="200" viewBox="0 0 1180 200" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Engineering Telemetry and Core Stack Distribution">
+<defs>
+  <clipPath id="barClip"><rect x="636" y="58" width="508" height="10" rx="5"/></clipPath>
+</defs>
+<rect width="1180" height="200" rx="8" fill="#FFFFFF"/>
+<line x1="590" y1="24" x2="590" y2="176" stroke="rgba(15,23,42,0.10)" stroke-width="1"/>
+
+<!-- Left Column: Telemetry -->
+<text x="32" y="36" font-size="17" font-weight="700" fill="#0891B2">Andriansyach's Engineering Telemetry</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.15s" fill="freeze"/>
+      <circle cx="36" cy="66" r="3.5" fill="#D97706"/>
+      <text x="50" y="70" font-size="14" fill="#475569">Total Contributions:</text>
+      <text x="530" y="70" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">695</text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.25s" fill="freeze"/>
+      <circle cx="36" cy="92" r="3.5" fill="#D97706"/>
+      <text x="50" y="96" font-size="14" fill="#475569">Private Codebase Commits:</text>
+      <text x="530" y="96" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">689</text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.35s" fill="freeze"/>
+      <circle cx="36" cy="118" r="3.5" fill="#D97706"/>
+      <text x="50" y="122" font-size="14" fill="#475569">Active Engineering Span:</text>
+      <text x="530" y="122" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">Jul - Nov 2026</text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze"/>
+      <circle cx="36" cy="144" r="3.5" fill="#D97706"/>
+      <text x="50" y="148" font-size="14" fill="#475569">Enterprise Middleware:</text>
+      <text x="530" y="148" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">IBM ACE &amp; MQ</text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze"/>
+      <circle cx="36" cy="170" r="3.5" fill="#D97706"/>
+      <text x="50" y="174" font-size="14" fill="#475569">API Gateway Platform:</text>
+      <text x="530" y="174" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">Axway APIM</text>
+    </g>
+
+<!-- Right Column: Core Stack & Languages -->
+<text x="636" y="36" font-size="17" font-weight="700" fill="#0891B2">Core Stack &amp; Language Focus</text>
+<rect x="636" y="58" width="508" height="10" rx="5" fill="rgba(15,23,42,0.08)"/>
+<g clip-path="url(#barClip)"><rect x="636" y="58" width="121.92" height="10" fill="#0891B2"/><rect x="757.92" y="58" width="111.76" height="10" fill="#D97706"/><rect x="869.68" y="58" width="91.44" height="10" fill="#059669"/><rect x="961.12" y="58" width="71.12" height="10" fill="#0284C7"/><rect x="1032.24" y="58" width="45.72" height="10" fill="#7C3AED"/><rect x="1077.96" y="58" width="30.48" height="10" fill="#0D9488"/><rect x="1108.44" y="58" width="20.32" height="10" fill="#EA580C"/><rect x="1128.76" y="58" width="15.240000000000236" height="10" fill="#64748B"/></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.20s" fill="freeze"/>
+      <circle cx="641" cy="92" r="4.5" fill="#0891B2"/>
+      <text x="653" y="96" font-size="12.5" fill="#475569">Go (Gin / pgx) <tspan fill="#0F172A" font-weight="600">24%</tspan></text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.26s" fill="freeze"/>
+      <circle cx="641" cy="116" r="4.5" fill="#D97706"/>
+      <text x="653" y="120" font-size="12.5" fill="#475569">JavaScript / React <tspan fill="#0F172A" font-weight="600">22%</tspan></text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.32s" fill="freeze"/>
+      <circle cx="641" cy="140" r="4.5" fill="#059669"/>
+      <text x="653" y="144" font-size="12.5" fill="#475569">IBM ACE / ESQL <tspan fill="#0F172A" font-weight="600">18%</tspan></text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.38s" fill="freeze"/>
+      <circle cx="641" cy="164" r="4.5" fill="#0284C7"/>
+      <text x="653" y="168" font-size="12.5" fill="#475569">Axway Policy Studio <tspan fill="#0F172A" font-weight="600">14%</tspan></text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.44s" fill="freeze"/>
+      <circle cx="903" cy="92" r="4.5" fill="#7C3AED"/>
+      <text x="915" y="96" font-size="12.5" fill="#475569">Node.js / Express <tspan fill="#0F172A" font-weight="600">9%</tspan></text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.50s" fill="freeze"/>
+      <circle cx="903" cy="116" r="4.5" fill="#0D9488"/>
+      <text x="915" y="120" font-size="12.5" fill="#475569">PostgreSQL / SQL <tspan fill="#0F172A" font-weight="600">6%</tspan></text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.56s" fill="freeze"/>
+      <circle cx="903" cy="140" r="4.5" fill="#EA580C"/>
+      <text x="915" y="144" font-size="12.5" fill="#475569">Tailwind / CSS <tspan fill="#0F172A" font-weight="600">4%</tspan></text>
+    </g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.62s" fill="freeze"/>
+      <circle cx="903" cy="164" r="4.5" fill="#64748B"/>
+      <text x="915" y="168" font-size="12.5" fill="#475569">Nginx / Linux <tspan fill="#0F172A" font-weight="600">3%</tspan></text>
+    </g>
+</svg>
