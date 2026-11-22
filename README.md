@@ -53,12 +53,6 @@
 <!-- ===== UNIFORM SOCIAL BADGES ===== -->
 <div align="center">
 
-<a href="mailto:andriansyachakbar@gmail.com">
-  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/andriansyachakbar">
-  <img src="https://img.shields.io/badge/GitHub-0A101F?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0A101F" alt="GitHub" />
-</a>
+<a href="mailto:andriansyachakbar@gmail.com"><img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" /></a>&nbsp;&nbsp;<a href="https://github.com/andriansyachakbar"><img src="https://img.shields.io/badge/GitHub-0A101F?style=for-the-badge&logo=github&logoColor=22D3EE&labelColor=0A101F" alt="GitHub" /></a>
 
 </div>
