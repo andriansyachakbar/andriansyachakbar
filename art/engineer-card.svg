@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 280" width="380" height="280" role="img" aria-label="Enterprise Integration Architecture Flow">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="380" height="280" rx="14" fill="url(#cardBg)" />
+  <rect x="1.5" y="1.5" width="377" height="277" rx="13" fill="none" stroke="url(#borderGlow)" stroke-width="1.5" stroke-opacity="0.7" />
+
+  <!-- Header bar -->
+  <rect x="16" y="14" width="348" height="28" rx="6" fill="#161B22" />
+  <circle cx="30" cy="28" r="4" fill="#10B981" />
+  <text x="42" y="32" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600">API INTEGRATION PIPELINE</text>
+
+  <!-- Step 1: Client -->
+  <rect x="28" y="54" width="324" height="32" rx="7" fill="#111827" stroke="#334155" stroke-width="1.2" />
+  <text x="44" y="74" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">01</text>
+  <text x="72" y="74" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Partner / React Developer Portal</text>
+
+  <!-- Arrow 1 -->
+  <line x1="190" y1="86" x2="190" y2="99" stroke="#10B981" stroke-width="1.6" />
+  <polygon points="186,98 194,98 190,104" fill="#10B981" />
+
+  <!-- Step 2: Axway API Gateway -->
+  <rect x="28" y="104" width="324" height="36" rx="7" fill="#064E3B" fill-opacity="0.55" stroke="#10B981" stroke-width="1.3" />
+  <text x="44" y="126" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">02</text>
+  <text x="72" y="126" fill="#ECFDF5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">Axway API Gateway &amp; Manager</text>
+  <text x="340" y="126" text-anchor="end" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">OAuth2 · mTLS</text>
+
+  <!-- Arrow 2 -->
+  <line x1="190" y1="140" x2="190" y2="153" stroke="#38BDF8" stroke-width="1.6" />
+  <polygon points="186,152 194,152 190,158" fill="#38BDF8" />
+
+  <!-- Step 3: IBM ACE -->
+  <rect x="28" y="158" width="324" height="36" rx="7" fill="#0C4A6E" fill-opacity="0.5" stroke="#38BDF8" stroke-width="1.3" />
+  <text x="44" y="180" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">03</text>
+  <text x="72" y="180" fill="#F0F9FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600">IBM ACE / IIB &amp; IBM MQ</text>
+  <text x="340" y="180" text-anchor="end" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">ESQL · SOAP/REST</text>
+
+  <!-- Arrow 3 -->
+  <line x1="190" y1="194" x2="190" y2="207" stroke="#10B981" stroke-width="1.6" />
+  <polygon points="186,206 194,206 190,212" fill="#10B981" />
+
+  <!-- Step 4: Services & PostgreSQL -->
+  <rect x="28" y="212" width="156" height="44" rx="7" fill="#111827" stroke="#334155" stroke-width="1.2" />
+  <text x="106" y="231" text-anchor="middle" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">Go / Node.js</text>
+  <text x="106" y="246" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Gin · Express</text>
+
+  <rect x="196" y="212" width="156" height="44" rx="7" fill="#111827" stroke="#334155" stroke-width="1.2" />
+  <text x="274" y="231" text-anchor="middle" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600">PostgreSQL</text>
+  <text x="274" y="246" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Audit &amp; Telemetry</text>
+</svg>
