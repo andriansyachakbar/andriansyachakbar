@@ -91,8 +91,7 @@
 
   <!-- Right SYSTEM.INFO Column -->
   <text x="470" y="106" font-size="13" letter-spacing="2" fill="#0891B2" filter="url(#txtGlow)">SYSTEM.INFO</text>
-  <line x1="568" y1="102" x2="1062" y2="102" stroke="rgba(15,23,42,0.10)"/>
-  <text x="1125" y="106" text-anchor="end" font-size="12" fill="#EF4444" font-weight="700"><tspan>&#9679;</tspan> LIVE<animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></text>
+  <line x1="568" y1="102" x2="1125" y2="102" stroke="rgba(15,23,42,0.10)"/>
 
   <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="0.45s" fill="freeze"/>
     <rect x="470" y="121" width="248" height="22" rx="5" fill="#FEF3C7" stroke="rgba(217,119,6,0.45)" stroke-width="1"/>
