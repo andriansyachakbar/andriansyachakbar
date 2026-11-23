@@ -308,7 +308,7 @@
     </g>
     </g>
 
-    <!-- 4. 110 arifhaxn-style multi-stage leaping pixel travelers -->
+    <!-- 4. 110 kinetic multi-stage leaping pixel travelers -->
     <g shape-rendering="crispEdges">
       <use href="#pxGold" opacity="0"><animate attributeName="opacity" values="0;0;0.95;0.95;0.95;0.95;0;0" keyTimes="0;0.24;0.38;0.52;0.66;0.80;0.92;1" dur="11s" begin="0.00s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="269.3 86.5;269.3 86.5;227.7 171.2;211 205.1;261 103.4;269.3 86.5;269.3 86.5;269.3 86.5" keyTimes="0;0.24;0.38;0.52;0.66;0.80;0.92;1" dur="11s" begin="0.00s" repeatCount="indefinite" calcMode="spline" keySplines="0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1"/></use>
 <use href="#pxEdge" opacity="0"><animate attributeName="opacity" values="0;0;0.95;0.95;0.95;0.95;0;0" keyTimes="0;0.24;0.38;0.52;0.66;0.80;0.92;1" dur="11s" begin="0.08s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="106.8 94.9;106.8 94.9;181.8 183.9;194.3 239;140.2 188.2;106.8 94.9;106.8 94.9;106.8 94.9" keyTimes="0;0.24;0.38;0.52;0.66;0.80;0.92;1" dur="11s" begin="0.08s" repeatCount="indefinite" calcMode="spline" keySplines="0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1;0.35 0 0.2 1"/></use>

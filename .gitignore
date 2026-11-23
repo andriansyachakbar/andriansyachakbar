@@ -19,7 +19,7 @@ dist/
 scratch/
 tmp/
 *.log
-REEL_ARIFHAXN_STUDY_AND_GITIGNORE_PLAN.md
+*.plan.md
 
 # OS & Editor
 .DS_Store
