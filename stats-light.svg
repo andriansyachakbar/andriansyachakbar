@@ -6,35 +6,35 @@
 <line x1="590" y1="24" x2="590" y2="176" stroke="rgba(15,23,42,0.10)" stroke-width="1"/>
 
 <!-- Left Column: Telemetry -->
-<text x="32" y="36" font-size="17" font-weight="700" fill="#0891B2">Andriansyach's Engineering Telemetry</text>
+<text x="32" y="36" font-size="16" font-weight="600" fill="#0891B2">Engineering activity</text>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.15s" fill="freeze"/>
       <circle cx="36" cy="66" r="3.5" fill="#D97706"/>
-      <text x="50" y="70" font-size="14" fill="#475569">Total Contributions:</text>
-      <text x="530" y="70" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">695+</text>
+      <text x="50" y="70" font-size="14" fill="#475569">Total contributions</text>
+      <text x="530" y="70" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">700+</text>
     </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.25s" fill="freeze"/>
       <circle cx="36" cy="92" r="3.5" fill="#D97706"/>
-      <text x="50" y="96" font-size="14" fill="#475569">Private Codebase Commits:</text>
-      <text x="530" y="96" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">689</text>
+      <text x="50" y="96" font-size="14" fill="#475569">Private repo commits</text>
+      <text x="530" y="96" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">691</text>
     </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.35s" fill="freeze"/>
       <circle cx="36" cy="118" r="3.5" fill="#D97706"/>
-      <text x="50" y="122" font-size="14" fill="#475569">Active Engineering Span:</text>
-      <text x="530" y="122" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">Jul - Nov 2026</text>
+      <text x="50" y="122" font-size="14" fill="#475569">Active span</text>
+      <text x="530" y="122" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">Jul – Nov 2026</text>
     </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze"/>
       <circle cx="36" cy="144" r="3.5" fill="#D97706"/>
-      <text x="50" y="148" font-size="14" fill="#475569">Enterprise Middleware:</text>
+      <text x="50" y="148" font-size="14" fill="#475569">Enterprise middleware</text>
       <text x="530" y="148" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">IBM ACE &amp; MQ</text>
     </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze"/>
       <circle cx="36" cy="170" r="3.5" fill="#D97706"/>
-      <text x="50" y="174" font-size="14" fill="#475569">API Gateway Platform:</text>
+      <text x="50" y="174" font-size="14" fill="#475569">API gateway platform</text>
       <text x="530" y="174" text-anchor="end" font-size="14" font-weight="700" fill="#0F172A">Axway APIM</text>
     </g>
 
-<!-- Right Column: Core Stack & Languages -->
-<text x="636" y="36" font-size="17" font-weight="700" fill="#0891B2">Core Stack &amp; Language Focus</text>
+<!-- Right Column: Stack Focus -->
+<text x="636" y="36" font-size="16" font-weight="600" fill="#0891B2">Stack and language focus</text>
 <rect x="636" y="58" width="508" height="10" rx="5" fill="rgba(15,23,42,0.08)"/>
 <g clip-path="url(#barClip)"><rect x="636" y="58" width="121.92" height="10" fill="#0891B2"/><rect x="757.92" y="58" width="111.76" height="10" fill="#D97706"/><rect x="869.68" y="58" width="91.44" height="10" fill="#059669"/><rect x="961.12" y="58" width="71.12" height="10" fill="#0284C7"/><rect x="1032.24" y="58" width="45.72" height="10" fill="#7C3AED"/><rect x="1077.96" y="58" width="30.48" height="10" fill="#0D9488"/><rect x="1108.44" y="58" width="20.32" height="10" fill="#EA580C"/><rect x="1128.76" y="58" width="15.240000000000236" height="10" fill="#64748B"/></g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.20s" fill="freeze"/>
