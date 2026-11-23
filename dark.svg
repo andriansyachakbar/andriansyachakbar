@@ -9,11 +9,6 @@
     <stop offset="0" stop-color="#0A101F"/>
     <stop offset="1" stop-color="#0C1426"/>
   </linearGradient>
-  <linearGradient id="hudScrim" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#0A101F" stop-opacity="0"/>
-    <stop offset="0.72" stop-color="#0A101F" stop-opacity="0"/>
-    <stop offset="1" stop-color="#0A101F" stop-opacity="0.88"/>
-  </linearGradient>
   <linearGradient id="scanBar" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
     <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.45"/>
@@ -86,13 +81,6 @@
 <circle cx="306.1" cy="181.1" r="1.4" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.85;0" dur="7.8s" begin="3.03s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;-12 -45" dur="7.8s" begin="3.03s" repeatCount="indefinite"/></circle>
 <circle cx="161.8" cy="185.3" r="1.4" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.85;0" dur="4.2s" begin="3.40s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;4 -18" dur="4.2s" begin="3.40s" repeatCount="indefinite"/></circle>
 <circle cx="281.4" cy="185.3" r="1.4" fill="#22D3EE" opacity="0"><animate attributeName="opacity" values="0;0.85;0" dur="5.1s" begin="3.77s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;-6 -27" dur="5.1s" begin="3.77s" repeatCount="indefinite"/></circle>
-
-    <!-- Subtle bottom HUD bar -->
-    <rect x="38" y="86" width="396" height="488" fill="url(#hudScrim)"/>
-    <rect x="50" y="538" width="372" height="26" rx="6" fill="rgba(10,16,31,0.82)" stroke="rgba(34,211,238,0.38)" stroke-width="0.9"/>
-    <circle cx="64" cy="551" r="3.2" fill="#10B981"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
-    <text x="74" y="555" font-size="10.5" fill="#E2E8F0" letter-spacing="0.8">IDENTITY.LOCK // @andriansyachakbar</text>
-    <text x="412" y="555" text-anchor="end" font-size="10" fill="#F59E0B">HD</text>
   </g>
 
   <!-- Corner target brackets -->
