@@ -29,8 +29,7 @@
   <text x="590" y="29" text-anchor="middle" font-size="12" fill="#475569">andriansyachakbar — profile.sh</text>
 
   <!-- Left Portrait Frame (vertically centered in 48..608) -->
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#0891B2" stroke-width="2" opacity="0.40" filter="url(#glow3)"/>
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="#F8FAFC" stroke="rgba(8,145,178,0.42)"/>
+  <rect x="34" y="76" width="404" height="504" rx="10" fill="#F8FAFC" stroke="rgba(8,145,178,0.22)" stroke-width="1.2"/>
 
   <!-- Portrait Content: Living HD Eren Portrait + Pixel-Dispersion Morph + Multi-Stage Travelers + Titan Embers -->
   <g clip-path="url(#visualClip)">
@@ -450,11 +449,22 @@
 <circle cx="52.7" cy="569.5" r="2.1" fill="#D97706" opacity="0"><animate attributeName="opacity" values="0;0.9;0.5;0" dur="6.2s" begin="3.46s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;5 -28" dur="6.2s" begin="3.46s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- Corner target brackets -->
-  <path d="M 48 76 L 34 76 L 34 90" fill="none" stroke="#0891B2" stroke-width="2" opacity="0.85"/>
-  <path d="M 424 76 L 438 76 L 438 90" fill="none" stroke="#0891B2" stroke-width="2" opacity="0.85"/>
-  <path d="M 48 580 L 34 580 L 34 566" fill="none" stroke="#0891B2" stroke-width="2" opacity="0.85"/>
-  <path d="M 424 580 L 438 580 L 438 566" fill="none" stroke="#0891B2" stroke-width="2" opacity="0.85"/>
+  <!-- Premium Traveling Light Border around Portrait -->
+  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#0891B2" stroke-width="1.6" opacity="0.16" filter="url(#glow3)">
+    <animate attributeName="opacity" values="0.12;0.26;0.12" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#0891B2" stroke-width="3.6" stroke-linecap="round" opacity="0.72" filter="url(#glow3)" pathLength="1000" stroke-dasharray="180 820">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round" opacity="0.95" pathLength="1000" stroke-dasharray="110 890">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#D97706" stroke-width="3.6" stroke-linecap="round" opacity="0.68" filter="url(#glow3)" pathLength="1000" stroke-dasharray="160 840">
+    <animate attributeName="stroke-dashoffset" from="500" to="-500" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" opacity="0.95" pathLength="1000" stroke-dasharray="95 905">
+    <animate attributeName="stroke-dashoffset" from="500" to="-500" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
 
   <!-- Right Profile Info Column -->
   <text x="470" y="106" font-size="13.5" font-weight="600" letter-spacing="0.4" fill="#0891B2">System profile</text>

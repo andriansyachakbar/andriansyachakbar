@@ -1,8 +1,8 @@
 <!-- ===== THEME-AWARE ANIMATED TERMINAL HERO ===== -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=5" />
-  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=5" />
-  <img width="100%" src="light.svg?v=5" alt="Andriansyach Akbar — profile.sh --live" />
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=6" />
+  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=6" />
+  <img width="100%" src="light.svg?v=6" alt="Andriansyach Akbar — profile.sh --live" />
 </picture>
 
 <!-- ===== GITHUB STREAK & ENGINEERING TELEMETRY ===== -->
