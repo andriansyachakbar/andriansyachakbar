@@ -15,7 +15,33 @@
   <filter id="glow3" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.8"/></filter>
   <filter id="txtGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="0.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <clipPath id="winClip"><rect x="2" y="2" width="1176" height="606" rx="18"/></clipPath>
-  <clipPath id="visualClip"><rect x="36" y="78" width="400" height="500" rx="8"/></clipPath>
+  <clipPath id="visualClip"><rect x="36" y="78" width="400" height="500" rx="10"/></clipPath>
+  <mask id="ringMask">
+    <rect x="33" y="75" width="406" height="506" rx="13" fill="white"/>
+    <rect x="36" y="78" width="400" height="500" rx="10" fill="black"/>
+  </mask>
+  <mask id="auraMask">
+    <rect x="30" y="72" width="412" height="512" rx="16" fill="white"/>
+    <rect x="36" y="78" width="400" height="500" rx="10" fill="black"/>
+  </mask>
+  <linearGradient id="dCg0" gradientUnits="userSpaceOnUse" x1="230" y1="0" x2="162.63" y2="162.63"><stop offset="0%" stop-color="#0891B2"/><stop offset="100%" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="dCg1" gradientUnits="userSpaceOnUse" x1="162.63" y1="162.63" x2="0" y2="230"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#E0F2FE"/></linearGradient>
+  <linearGradient id="dCg2" gradientUnits="userSpaceOnUse" x1="0" y1="230" x2="-162.63" y2="162.63"><stop offset="0%" stop-color="#E0F2FE"/><stop offset="100%" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="dCg3" gradientUnits="userSpaceOnUse" x1="-162.63" y1="162.63" x2="-230" y2="0"><stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#10B981"/></linearGradient>
+  <linearGradient id="dCg4" gradientUnits="userSpaceOnUse" x1="-230" y1="0" x2="-162.63" y2="-162.63"><stop offset="0%" stop-color="#10B981"/><stop offset="100%" stop-color="#F59E0B"/></linearGradient>
+  <linearGradient id="dCg5" gradientUnits="userSpaceOnUse" x1="-162.63" y1="-162.63" x2="0" y2="-230"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#FEF3C7"/></linearGradient>
+  <linearGradient id="dCg6" gradientUnits="userSpaceOnUse" x1="0" y1="-230" x2="162.63" y2="-162.63"><stop offset="0%" stop-color="#FEF3C7"/><stop offset="100%" stop-color="#F59E0B"/></linearGradient>
+  <linearGradient id="dCg7" gradientUnits="userSpaceOnUse" x1="162.63" y1="-162.63" x2="230" y2="0"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#0891B2"/></linearGradient>
+  <g id="dWheel">
+    <path d="M 0 0 L 420 0 A 420 420 0 0 1 286.44 307.17 Z" fill="url(#dCg0)"/>
+    <path d="M 0 0 L 296.98 296.98 A 420 420 0 0 1 -14.66 419.74 Z" fill="url(#dCg1)"/>
+    <path d="M 0 0 L 0 420 A 420 420 0 0 1 -307.17 286.44 Z" fill="url(#dCg2)"/>
+    <path d="M 0 0 L -296.98 296.98 A 420 420 0 0 1 -419.74 -14.66 Z" fill="url(#dCg3)"/>
+    <path d="M 0 0 L -420 0 A 420 420 0 0 1 -286.44 -307.17 Z" fill="url(#dCg4)"/>
+    <path d="M 0 0 L -296.98 -296.98 A 420 420 0 0 1 14.66 -419.74 Z" fill="url(#dCg5)"/>
+    <path d="M 0 0 L 0 -420 A 420 420 0 0 1 307.17 -286.44 Z" fill="url(#dCg6)"/>
+    <path d="M 0 0 L 296.98 -296.98 A 420 420 0 0 1 419.74 14.66 Z" fill="url(#dCg7)"/>
+  </g>
 </defs>
 
 <rect x="2" y="2" width="1176" height="606" rx="18" fill="#070B16"/>
@@ -28,8 +54,14 @@
   <circle cx="70" cy="25" r="5.5" fill="#27c93f"/>
   <text x="590" y="29" text-anchor="middle" font-size="12" fill="#94A3B8">andriansyachakbar — profile.sh</text>
 
-  <!-- Left Portrait Frame (vertically centered in 48..608) -->
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="#0A101F" stroke="rgba(34,211,238,0.18)" stroke-width="1.2"/>
+  <!-- Left Portrait Frame Outer Neon Aura Halo (radiates outward onto card; inward covered by portrait) -->
+  <g filter="url(#glow8)" opacity="0.82">
+    <g mask="url(#auraMask)">
+      <g transform="translate(236 328)">
+        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.5s" repeatCount="indefinite"/><use href="#dWheel"/></g>
+      </g>
+    </g>
+  </g>
 
   <!-- Portrait Content: Living HD Eren Portrait + Pixel-Dispersion Morph + Multi-Stage Travelers + Titan Embers -->
   <g clip-path="url(#visualClip)">
@@ -449,22 +481,13 @@
 <circle cx="52.7" cy="569.5" r="2.1" fill="#FBBF24" opacity="0"><animate attributeName="opacity" values="0;0.9;0.5;0" dur="6.2s" begin="3.46s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;5 -28" dur="6.2s" begin="3.46s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- Premium Traveling Light Border around Portrait -->
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#22D3EE" stroke-width="1.6" opacity="0.16" filter="url(#glow3)">
-    <animate attributeName="opacity" values="0.12;0.28;0.12" dur="6s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#22D3EE" stroke-width="3.6" stroke-linecap="round" opacity="0.78" filter="url(#glow3)" pathLength="1000" stroke-dasharray="180 820">
-    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#A5F3FC" stroke-width="1.6" stroke-linecap="round" opacity="0.95" pathLength="1000" stroke-dasharray="110 890">
-    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#F59E0B" stroke-width="3.6" stroke-linecap="round" opacity="0.72" filter="url(#glow3)" pathLength="1000" stroke-dasharray="160 840">
-    <animate attributeName="stroke-dashoffset" from="500" to="-500" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="34" y="76" width="404" height="504" rx="10" fill="none" stroke="#FDE68A" stroke-width="1.6" stroke-linecap="round" opacity="0.95" pathLength="1000" stroke-dasharray="95 905">
-    <animate attributeName="stroke-dashoffset" from="500" to="-500" dur="5.5s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Full-Perimeter Rotating Conic-Gradient Neon Frame + Inner Glass Specular Rim -->
+  <g mask="url(#ringMask)">
+    <g transform="translate(236 328)">
+      <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.5s" repeatCount="indefinite"/><use href="#dWheel"/></g>
+    </g>
+  </g>
+  <rect x="36.5" y="78.5" width="399" height="499" rx="9.5" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1"/>
 
   <!-- Right Profile Info Column -->
   <text x="470" y="106" font-size="13.5" font-weight="600" letter-spacing="0.4" fill="#22D3EE">System profile</text>
